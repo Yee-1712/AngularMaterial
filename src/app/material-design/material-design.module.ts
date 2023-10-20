@@ -11,6 +11,10 @@ import {MatCardModule} from '@angular/material/card'
     CommonModule,
     MatButtonModule,
     MatCardModule
+  ],
+  exports:[
+    MatButtonModule,
+    MatCardModule
   ]
 })
 export class MaterialDesignModule { }
